@@ -16,6 +16,7 @@ export class ShoppingListService{
     return this.ingredients.slice();
   }
 
+
   addIngredients(ingredients: Ingredient[]){
 /*     for (let ingredient of ingredients){
      this.addIngredient(ingredient);
